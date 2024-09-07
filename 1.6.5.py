@@ -1,3 +1,5 @@
+# методо find_element_by_link_text:
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
