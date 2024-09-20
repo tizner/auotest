@@ -19,13 +19,12 @@ try:
     y = calc(x)
     print(x)
 
-
     input1 = browser.find_element(By.CSS_SELECTOR, "#answer")
     input1.send_keys(y)
 
-    option1 = browser.find_element(By.CSS_SELECTOR, '[for = "robotCheckbox"]')
+    option1 = browser.find_element(By.CSS_SELECTOR, '#robotCheckbox')
     option1.click()
-    option2 = browser.find_element(By.CSS_SELECTOR, '[for = "robotsRule"]')
+    option2 = browser.find_element(By.CSS_SELECTOR, '#robotsRule')
     option2.click()
 
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
